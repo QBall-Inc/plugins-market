@@ -16,9 +16,7 @@
           "source": "github",
           "repo": "QBall-Inc/the-bulwark"
         },
-        "description": "Full-lifecycle SDLC guardrailing framework for Claude Code — from product ideation and planning
-  through implementation, code review, and test validation. Enterprise-grade skills and agents for AI-human peer
-  collaboration.",
+        "description": "Full-lifecycle SDLC guardrailing framework for Claude Code — from product ideation and planning through implementation, code review, and test validation. Enterprise-grade skills and agents for AI-human peer collaboration.",
         "version": "1.0.0",
         "author": {
           "name": "Ashay Kubal",
