@@ -64,7 +64,7 @@
         "repo": "QBall-Inc/clear"
       },
       "description": "Context Layered Engineering for Agentic Resources - Persistent memory and intelligent context management for Claude Code sessions",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Ashay Kubal",
         "url": "https://github.com/ashaykubal"
