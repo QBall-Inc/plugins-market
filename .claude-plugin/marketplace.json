@@ -1,61 +1,91 @@
 {
-    "name": "qball-inc",
-    "owner": {
-      "name": "Ashay Kubal",
-      "email": "ashay.kubal@gmail.com",
-      "url": "https://github.com/ashaykubal"
+  "name": "qball-inc",
+  "owner": {
+    "name": "Ashay Kubal",
+    "email": "ashay.kubal@gmail.com",
+    "url": "https://github.com/ashaykubal"
+  },
+  "metadata": {
+    "description": "QBall-Inc plugin marketplace for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "the-bulwark",
+      "source": {
+        "source": "github",
+        "repo": "QBall-Inc/the-bulwark"
+      },
+      "description": "Full-lifecycle SDLC guardrailing framework for Claude Code \u2014 from product ideation and planning through implementation, code review, and test validation. Enterprise-grade skills and agents for AI-human peer collaboration.",
+      "version": "1.3.0",
+      "author": {
+        "name": "Ashay Kubal",
+        "url": "https://github.com/ashaykubal"
+      },
+      "homepage": "https://github.com/QBall-Inc",
+      "repository": "https://github.com/QBall-Inc/the-bulwark",
+      "license": "MIT",
+      "keywords": [
+        "claude-code",
+        "claude-code-plugin",
+        "sdlc",
+        "quality-enforcement",
+        "code-review",
+        "testing",
+        "governance",
+        "hooks",
+        "skills",
+        "agents",
+        "pipeline",
+        "ideation",
+        "product-ideation",
+        "product-management",
+        "market-research",
+        "competitive-research",
+        "brainstorming",
+        "brainstorm",
+        "planning",
+        "plan-creation",
+        "agent-design",
+        "skill-design",
+        "create-skill",
+        "create-agent",
+        "test-audit",
+        "test-coverage",
+        "statusline",
+        "agent-teams"
+      ],
+      "category": "productivity"
     },
-    "metadata": {
-      "description": "QBall-Inc plugin marketplace for Claude Code",
-      "version": "1.0.0"
-    },
-    "plugins": [
-      {
-        "name": "the-bulwark",
-        "source": {
-          "source": "github",
-          "repo": "QBall-Inc/the-bulwark"
-        },
-        "description": "Full-lifecycle SDLC guardrailing framework for Claude Code — from product ideation and planning through implementation, code review, and test validation. Enterprise-grade skills and agents for AI-human peer collaboration.",
-        "version": "1.3.0",
-        "author": {
-          "name": "Ashay Kubal",
-          "url": "https://github.com/ashaykubal"
-        },
-        "homepage": "https://github.com/QBall-Inc",
-        "repository": "https://github.com/QBall-Inc/the-bulwark",
-        "license": "MIT",
-        "keywords": [
-          "claude-code",
-          "claude-code-plugin",
-          "sdlc",
-          "quality-enforcement",
-          "code-review",
-          "testing",
-          "governance",
-          "hooks",
-          "skills",
-          "agents",
-          "pipeline",
-          "ideation",
-          "product-ideation",
-          "product-management",
-          "market-research",
-          "competitive-research",
-          "brainstorming",
-          "brainstorm",
-          "planning",
-          "plan-creation",
-          "agent-design",
-          "skill-design",
-          "create-skill",
-          "create-agent",
-          "test-audit",
-          "test-coverage",
-          "statusline",
-          "agent-teams"
-        ],
-        "category": "productivity"
-      }
-    ]
-  }
+    {
+      "name": "clear",
+      "source": {
+        "source": "github",
+        "repo": "QBall-Inc/clear"
+      },
+      "description": "Context Layered Engineering for Agentic Resources - Persistent memory and intelligent context management for Claude Code sessions",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ashay Kubal",
+        "url": "https://github.com/ashaykubal"
+      },
+      "homepage": "https://github.com/QBall-Inc",
+      "repository": "https://github.com/QBall-Inc/clear",
+      "license": "Apache-2.0",
+      "keywords": [
+        "claude-code",
+        "claude-code-plugin",
+        "context-management",
+        "session-tracking",
+        "knowledge-base",
+        "knowledge-graph",
+        "workpackage",
+        "planning",
+        "memory",
+        "handoff",
+        "automation"
+      ],
+      "category": "productivity"
+    }
+  ]
+}
